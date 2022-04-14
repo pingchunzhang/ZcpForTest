@@ -18,4 +18,8 @@ class TestFiler(unittest.TestCase):
     def test_bigger(self):
         filter_1 = NumFilter()
         self.assertEqual(filter_1.filter(12), 1)
-
+        
+        
+class Tester(unittest.TestCase):
+    def ___init__(self):
+        test_num = 20
