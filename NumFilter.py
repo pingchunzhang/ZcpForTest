@@ -11,4 +11,13 @@ class NumFilter(Object)
             return 2
         else:
             return 0
+        
+    def compare(self, number1, number2):
+        """compare number"""
+        if number1 > number2:
+            return "bigger"
+        elif number1 == number2:
+            return "equal"
+        else:
+            return "smaller"
 
